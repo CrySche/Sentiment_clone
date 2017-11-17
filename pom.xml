@@ -13,6 +13,7 @@
 		<url>https://github.com/XXX/YYY</url>
 		<connection>scm:git:ssh://git@github.com:joarkm/Sentiment_clone.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com:joarkm/Sentiment_clone.git</developerConnection>
+		<!-- -->
 	</scm>
 
 	<distributionManagement>
