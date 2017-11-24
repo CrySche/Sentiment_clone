@@ -10,17 +10,16 @@
     <name>Sentiment</name>
 
 	<scm>
-		<url>https://github.com/XXX/YYY</url>
-		<connection>scm:git:ssh://git@github.com:joarkm/Sentiment_clone.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:joarkm/Sentiment_clone.git</developerConnection>
-		<!-- -->
-	</scm>
+		<url>https://github.com/joarkm/Sentiment_clone</url>
+		<connection>scm:git:joarkm@github.com:joarkm/Sentiment_clone.git</connection>
+		<developerConnection>scm:git:joarkm@github.com:joarkm/Sentiment_clone.git</developerConnection>
+  </scm>
 
 	<distributionManagement>
 		<repository>
 			<id>reposs</id>
 			<name>repoet</name>
-			<file>"/home/joarkm/Documents/kompl_sys/SentientRepo"</file>
+			<url>file:/home/joarkm/Documents/kompl_sys/SentientRepo</url>
 		</repository>	
 
 	</distributionManagement>
@@ -97,8 +96,10 @@
 			<artifactId>maven-release-plugin</artifactId>
 			<configuration>
 			<!-- During release:perform, enable the "release" profile -->
-      		<releaseProfiles>release</releaseProfiles>					
-			
+				<releaseProfiles>release</releaseProfiles>					
+				<checkModificationExcludes>
+				<checkModificationExclude>pom.xml</checkModificationExclude>
+				</checkModificationExcludes>
 			</configuration>
 			<version>2.5.3</version>
       	    </plugin>  
