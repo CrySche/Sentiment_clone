@@ -4,15 +4,15 @@
 
     <groupId>tdat2003</groupId>
     <artifactId>sentiment</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <name>Sentiment</name>
 
 	<scm>
 		<url>https://github.com/joarkm/Sentiment_clone</url>
-		<connection>scm:git:joarkm@github.com:joarkm/Sentiment_clone.git</connection>
-		<developerConnection>scm:git:joarkm@github.com:joarkm/Sentiment_clone.git</developerConnection>
+		<connection>scm:git:https://github.com/joarkm/Sentiment_clone</connection>
+		<developerConnection>scm:git:https://github.com/joarkm/Sentiment_clone</developerConnection>
   </scm>
 
 	<distributionManagement>
